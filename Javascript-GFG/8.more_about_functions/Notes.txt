@@ -1,0 +1,97 @@
+More About Functions
+====================
+
+pure Functions
+--------------
+   - It takes an argument
+   - It should return something
+   - For same input you should get the same output
+   - The result should not be influenced by outer parameter
+   - It should not mutate the original argument
+
+first class functions
+---------------------
+    - In javascript functions are basically treated as first class citizens.
+
+
+    What is First Class Citizens 
+    -----------------------------
+          - a function is called as a first class function as well of first class citizens.
+               the meaning of that function can be 
+                      - a function can be assigned to a variable
+                      - a function can be passsed as an argument to another function
+                      - a function can be return by another function
+
+
+ What is the purpose of an argument object in javascript
+
+           - It is used to store values passsed to a function          
+
+
+Higher Order Function
+---------------------
+    - A function that accepts another function as an argument or return a function or does both is called a H.O.F
+
+    
+     - calculate the square and cube of numbers using higher order function.
+
+ Map
+ ----
+    -     
+
+
+
+
+ Filter
+ -------
+
+      - it take the callback function as an argument
+
+
+Reduce 
+-------
+
+    - it is also take the callback function as an argument
+
+    - it returns a single value
+
+Argument Function - Non-Arrow function
+---------------------------------------
+
+    - It is an array like object present locally inside a function and 
+      it contains value of all the arguments passed to a 
+      
+
+Scope and Scope Chain
+=====================
+   - function can access the global variable
+   - inner function can access the outer function variable due to lexical Scope
+
+
+What is lexical Scope
+---------------------
+    A lexical environment in JavaScript refers to the set of variables, functions, and 
+    other data structures that are available in a particular section of code during its execution. It consists of two parts: 
+    a variable environment and a reference to the outer lexical environment
+
+  Whenever a function executes it has 2 things.
+        1)Variable Environment
+        2)Reference to Outer Lexical Environment that is the Parent's lexical Environment.
+
+
+ Date = 5th/01/2024
+ ==================
+
+ Recursion
+ ---------
+      - Function call itself.
+             
+
+
+Closure
+-------
+    - A Closure is the combination of a function bundle togather with references to its lexical environment.
+
+    - A Closure is a function that remembers its outer variables and can access them.
+
+    

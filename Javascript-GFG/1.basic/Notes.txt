@@ -1,0 +1,77 @@
+Basic of Javascript
+=====================
+Variables
+---------
+- how to declare the variable 
+
+         - let 
+         - var
+         - const
+
+
+    
+
+- Good variable namming convension is important
+
+     - use camelCase 
+     - it most describe the problem
+
+
+Datatypes
+---------
+    - which type of data need to be declare 
+
+    - String (Char)
+    - Number (int, decimal,float)
+    - Boolean
+    - Undefined - not defined any value 
+    - Null
+    - Object
+              - Object is one type of datatype which contain various type of value itself
+              - {} , []
+              - 
+
+  = "" -- anything inside is string type
+  - typeof  - to check the types of data
+
+  = NaN   - Not a Number
+
+
+Concatenation
+-------------
+   - to append string + integer 
+
+Template Literals/Strings
+-------------------------
+
+    - use backticks    = `` 
+
+    - to print all the thigs in single line
+
+    
+Operators
+----------
+   - Arithmatic
+   - Assignment
+   - Logical
+   -     
+
+
+Take Input From User
+--------------------
+   fisrt install this package - npm i readline-sync
+
+   
+
+
+
+
+
+   // Basic
+   =========
+
+       - Null      ----- No value
+
+       - Undefined  ---- Not defined
+
+       - NaN         ---- Not a Number

@@ -1,0 +1,22 @@
+String Methods
+==============
+
+
+ - chartAt()       ----> it will give the particular character of a string by using index value
+
+ - charCodeAt()    ----> it will give the ASCII value of a string by using index value
+
+ - indexOf()       ----> substring to search for in the string,Returns the position of the first occurrence of a substring.
+
+ - includes()      ----> it will Check the given character is present in the String (it will give true || false)
+
+ - toLowerCase()   ----> convert any string to lower case
+
+ - toUpperCase()   ----> convert any string to upper case
+
+ - substring()     ----> it will give the sub string from a string 
+                        
+                         e.x - "sanjay kumar das"
+                             - substring(0,10)     -----> sanjay kum
+                               
+ - trim()          ----> trim() method in JavaScript for effortless removal of leading and trailing whitespace from strings

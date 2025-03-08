@@ -1,0 +1,100 @@
+Array
+=====
+
+   - array is non-primitive data type
+
+   - in JavaScript array is a single variable that stores multiple elements.
+
+   -  There are basically two ways to declare an array.
+            
+                - var House = [ ]; // Method 1
+                - var House = new Array(); // Method 2
+           
+                -  But generally method 1 is preferred over method 2.
+   -           
+
+
+of used in for
+--------------
+   - it will print the value
+
+
+in used in for
+--------------
+   - it will print the index
+
+
+Copying an Array --> Array Reference
+------------------------------------
+   - assign one array value to another array
+
+
+Spread Operator (...)
+--------------------
+
+   - when we are copying one array value to another array at that time it is refering the same memory location to avaoid this we can use - Spread Operator
+
+
+Array Methods
+-------------
+   
+    - push()        ----> To add something to array (we can add more than one items)
+
+    - concat()      ----> It will combine the more than two array
+
+    - pop()         ----> Remove last item from an array
+
+    - slice()       ----> Returns a copy of a section of an array. For both start and end, a negative index can be used to indicate an offset from the end of the array. For example, -2 refers to the second to last element of the array.
+
+    - splice()      ----> Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
+
+    - includes()   -----> 
+
+
+
+
+
+Mutable & Immutable
+-------------------
+   - Mutable is change
+   - Immutable is not change
+
+
+
+
+Array Sort
+----------
+   
+ - sort() - Function used to determine the order of the elements
+
+
+
+
+Split and Join 
+--------------
+  
+ - split()    ----> Split a string into substrings using the specified separator and return them as an array.
+
+ - join()     ----> Adds all the elements of an array into a string, separated by the specified separator string.
+
+
+Spread
+-------
+ 
+ - ...array
+
+
+
+Destructuring Array
+-------------------
+
+
+
+
+
+
+
+
+
+
+

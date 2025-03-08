@@ -1,0 +1,42 @@
+Programs
+--------
+1 - Length of String
+       
+       E.x - Input: s = Geeks
+             Output: 5
+ 
+2 - SubString
+
+      E.x - Input:  S = "cdbkdub" L = 0 , R = 5
+            Output: "cdbkdu" 
+        
+3 - Implement strstr
+
+     E.x - Input:s = GeeksForGeeks, x = Fr
+           Output: -1
+           Explanation : Fr is not present in the string GeeksForGeeks as substring.
+
+           Input:s = GeeksForGeeks, x = For
+           Output: 5
+           Explanation: For is present as substring in GeeksForGeeks from index 5 (0 based indexing).       
+
+4 - Reverse String
+
+    E.x - Input:s = "Hello"
+          Output: olleH
+          Explanation: Reverse of Hello is olleH
+          
+5 - GetLine 1
+
+
+6 - Panagram Checking  - A panagram contains all the letters of english alphabet at least once.
+
+
+7 - Count Words in String
+
+
+8 - Palindrome String
+
+
+9 - Slice the String
+

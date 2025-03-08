@@ -1,0 +1,26 @@
+How Js Works- Behind the Scenes
+===============================
+Execution Context in Javascript
+-------------------------------
+
+   - Javascript code is executed inside Execution Context
+
+   
+
+
+What is Hoisting
+----------------
+
+   - It is a process where by you can access the value of a variable or function.Even before it is initialized.
+
+
+
+- function declarations are hoisted before variable declarations.
+
+
+What TDZ
+-------- 
+   - Temporal Dead Zone
+
+
+

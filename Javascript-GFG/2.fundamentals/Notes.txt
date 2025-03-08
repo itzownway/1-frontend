@@ -1,0 +1,15 @@
+Comparison Operator
+--------------------
+  - >
+  - >=
+  - ==
+
+
+Conditional
+-----------
+
+ - condition/expression
+ - nested -if else
+ - ternary operator 
+ - logical operator
+ 

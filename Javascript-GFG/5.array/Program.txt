@@ -1,0 +1,19 @@
+Program on Array
+=================
+
+  1 - Check if array is sorted
+
+
+  2 - Search an Elements in an array
+
+
+  3 - Size of an Array
+  
+
+  4 - Count the Zeros
+
+
+  5 - Average
+
+
+  6 - Largest Elements in Array

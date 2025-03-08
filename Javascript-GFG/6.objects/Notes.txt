@@ -1,0 +1,175 @@
+Object and Properties
+=====================
+
+Object
+-------
+  - It is a standalone entity, with properties and type.
+
+Properties 
+----------
+  - it is made up with  key and value
+
+
+
+Declaration of Object
+---------------------
+   - const obj = {};
+
+   - object literal is the another way to create the object
+
+
+Access the Object Properties
+----------------------------
+        
+         - By using dot (.)
+
+         - By using square bracket ([])
+
+
+Function as Object Property
+---------------------------
+   
+      - we can use function as object property.
+
+      - arrow function we can not use as object property.
+
+  
+ - how normal function is working same will be work when we declare the function inside the object.
+
+
+
+Computed Properties (Calculating something)
+-------------------------------------------
+
+     - Adding Properties to Object
+
+
+- multiple way of computed properties      
+
+               - take user input and based on the user input get the data from object
+
+ 
+
+
+ Shot Hand Property
+ -------------------
+
+   -  basically we can modify any long code into short way
+
+
+
+ for in (Property Existence)
+ ---------------------------
+   
+     -  By using (in) we can check wheather a property exist in an object or not
+
+
+
+ Object Reference and Shallow Copy
+ ----------------------------------
+
+    -   Shallow Copy   - both object will Refer to same memory location (when we copy one object ot another object)
+
+    -   Deep Copy  - both object will not Refer to same memory location (when we copy one object ot another object)
+
+
+Optional Chaining ( ? )
+-----------------------
+   - It is easier way to access nested properties of an object.
+
+   - also it will help to handle the error.(first time it will give the undefined if we go for nested value then it will give error so Optional Chaining help here)
+
+   - usefull when check rest api response getting nested values
+
+
+Destructuring Object
+--------------------
+
+      - Objects or Api responses are always in nested format  to get the particular nested value in single line we used Destructuring
+
+      - Destructuring basically help to un-packed the nested object values
+
+      - simply we can say get nested values from object and assign to different different variable format
+
+
+Keys, values & entries
+----------------------
+
+      - entries()   ---> Returns an array of key/values of the enumerable properties of an object.
+
+      - keys()      ---> Returns the names of the enumerable string properties and methods of an object.
+
+      - values()   -----> Returns an array of values of the enumerable properties of an object.
+
+
+'this' keyword
+--------------
+
+    - It refers to the object that is executing the function.
+
+
+
+
+    - Chrome   ---> V8  (Js Engine)
+
+    - Mozila  ----> Spider Monkey (Js Engine)
+
+
+
+    - If function is executed by object then this keyword will refer to current object
+
+    - If this keyword inside a function and that is not executed by object at this time this keyword will refer to window object(v8)
+
+
+Function Borrowing - Call and Apply
+-----------------------------------
+   
+     - Function Borrowing  is done by --> Call , Apply and Bind
+
+
+
+     - call ()  ----> Calls a method of an object, substituting another object for the current object.
+
+
+     - apply () ---->Calls the function, substituting the specified object for the this value of the function, and the specified array for the arguments of the function.
+
+
+Function Borrowing - Bind
+-------------------------
+
+     - bind () -----> For a given function, creates a bound function that has the same body as the original function. The this object of the bound function is associated with the specified object, and has the specified initial parameters.
+
+     
+     - bind basically return the function so we need to hold in variable then we can call that variable
+
+     - after assign blind() to variable at the time of call we can pass the arguments
+
+
+
+Implicit and Explicit
+---------------------
+   Implicit  --> automatically happen by JavaScript
+
+   Explicit  --> Developer to Custom 
+
+
+
+Constructor “new”
+----------------
+
+   new keyword and constructor functions
+   -------------------------------------
+      
+         - Constructor functions technically are regular functions.
+
+         - They have 2 conventions through 
+                     
+                     1 - They are named with capital letter first
+                     2 - They should be executed only with "new" operator
+
+
+    
+   
+'this' keyword - exercise
+-------------------------
+

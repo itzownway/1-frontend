@@ -1,0 +1,40 @@
+Programs
+--------
+1 - Factorial
+
+   - Given a positive integer, N. Find the factorial of N.
+
+2 - Find Volume
+
+   - You have to find exact volume of some objects just by knowing the some of their dimensions. Here we will find volume of a cube and a rectangular box by completing the given functions.
+
+3 - Prime Factorization
+
+   - Given a number N find the prime factorization of the number.
+
+4 - Anagram
+
+   - Given two strings a and b consisting of lowercase characters. The task is to check whether two given strings are an anagram of each other or not. An anagram of a string is another string that contains the same characters, only the order of characters can be different. For example, act and tac are an anagram of each other.
+
+5 - Find one extra character
+    
+   - Given two strings which are of lengths n and n+1. The second string contains all the character of the first string, but there is one extra character. Your task to find the extra character in the second string.  
+
+6 - Print Alphabets
+
+   - Given two char c1 and c2.  you need to print all the alphabet starting from c1 to c2 in a single line.
+
+7 - Binary number to decimal number
+   
+   - Given a Binary Number B, find its decimal equivalent.
+    
+      Input: B = 10001000
+      Output: 136
+
+8 - Decimal to binary number
+
+   - Given a decimal number N in string format, compute its binary equivalent.
+
+     Input: N = 7
+     Output: 111
+     

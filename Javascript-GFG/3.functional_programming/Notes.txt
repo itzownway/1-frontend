@@ -1,0 +1,149 @@
+Function
+=========
+
+Pure function
+-------------
+
+ function message() {
+  console.log("Hi");
+ }
+
+
+ call the function   ==> message();
+
+
+ - pure function take argument and parameter and value type is not change
+
+
+  function message(name) {    --- here name  - parameter of message function
+  console.log(name); 
+ }
+ 
+  message("Sanjay");          --- here Sanjay  - argument
+
+ Store the function to Variable
+ ------------------------------
+ const msg = function message() {
+  console.log("Hi");
+ }
+
+
+
+ Anonymous Function
+ -------------------
+   - with out name is call anonymous function
+
+   - it will not work if we call before declaration
+
+
+Declare
+---------
+   let anonymousFunction = function () {
+     console.log("Anonymous Function");
+   }
+
+call
+-------
+   anonymousFunction();
+
+
+  const msg = () {
+  console.log("Hi");
+ }
+
+ - Anonymous function must Declare first before call
+
+
+
+Arrow Function
+--------------
+
+  const msg = () => {
+  console.log("Hi");
+ }
+
+ - remove the function and assign with => 
+
+
+Ex - 0
+--------
+   function test(){  
+
+   } 
+
+   const test = () => {
+
+   }  
+
+
+- Arrow function also call as Fat Function
+
+
+Ex - 1
+------
+
+Anonymous Function
+------------------
+  const sum  = function(x, y) {
+    return x + y;
+  }
+
+
+Arrow Function
+--------------
+  const sum  = (x, y) => {
+    return x + y;
+  }
+
+
+
+Ex - 2
+------
+
+Arrow Function
+--------------
+
+  const sum  = (x, y) => {
+    return x + y;
+  }
+
+Arrow Function shorthand way
+----------------------------
+
+ const sum  = (x, y) => x + y; 
+ 
+
+Ex - 3
+-------
+
+ const sum = (x , y) {
+     if (x > y) {
+      return x + y;
+     } else {
+      return x - y;
+     }
+ }
+
+Arrow Function shorthand way
+----------------------------
+
+ const sum = (x , y) => x > y ? x + y : x - y;
+
+ const output = sum(100, 323);
+ console.log(output);
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+ 

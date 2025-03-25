@@ -3,3 +3,32 @@
 // Concatenate the two variables into a third variable called fullName
 
 // Log fullName to the console
+
+
+Track of Study
+----------------
+
+- Build a Blackjack Game
+       - Let's build a Blackjack game!
+       - Add the firstCard, secondCard, and sum
+       - If...else conditionals
+       - Your first if...else statement
+       - if/else...if/else statement
+       - The if...else statement for our game
+       - Aside: Booleans
+       - Add the hasBlackJack variable
+       - Add the isAlive variable
+       - Let's practice boolean conditions
+       - Add the message variable
+       - Link to stylesheet
+       - Add basic styling
+       - Make the start button work
+       - Display the message
+       - Display the sum
+       - Display the cards
+       - New card button
+       - Add to the sum when newCard is clicked
+       - Rename the startGame function
+       - Solving our cards problem with an array
+       - Aside: Intro to arrays
+       - 

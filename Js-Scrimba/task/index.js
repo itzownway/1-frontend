@@ -124,9 +124,9 @@ if(age < 100) {
 
 
 
-let firstCard = 10
-let secondCard = 7
-let sum = firstCard + secondCard
+// let firstCard = 10
+// let secondCard = 7
+// let sum = firstCard + secondCard
 
 // Write the conditional according to these rules:
 
@@ -135,30 +135,92 @@ let sum = firstCard + secondCard
 // else -> "You're out of the game! 😭"
 
 
-if(sum <= 20) {
-    console.log("Do you want to draw a new card? 🙂")
-} else if(sum === 21) {
-  console.log("Wohoo! You've got Blackjack! 🥳")
-} else {
-    console.log("You're out of the game! 😭")
-}
+// if(sum <= 20) {
+//     console.log("Do you want to draw a new card? 🙂")
+// } else if(sum === 21) {
+//   console.log("Wohoo! You've got Blackjack! 🥳")
+// } else {
+//     console.log("You're out of the game! 😭")
+// }
 
 //----------------boolean ---------------------------
 
-let isVegan = true
-console.log(isVegan)
+// let isVegan = true
+// console.log(isVegan)
 
 
-let hasDiscountCode = true
+// let hasDiscountCode = true
 
-function processOrder() {
-    if (hasDiscountCode) {
-        console.log('Discount applied to food order')
-        hasDiscountCode = false
-    } else {
-        console.log('No discount applied')
-    }
+// function processOrder() {
+//     if (hasDiscountCode) {
+//         console.log('Discount applied to food order')
+//         hasDiscountCode = false
+//     } else {
+//         console.log('No discount applied')
+//     }
+// }
+
+// processOrder()
+// processOrder()
+
+//----------------boolean ---------------------------
+
+// let firstCard = 10
+// let secondCard = 11
+// let sum = firstCard + secondCard
+// let hasBlackJack = false
+// // 1. Create a variable called isAlive and assign it to true
+// let isAlive = true
+
+// 2. Flip its value to false in the appropriate code block 
+// if (sum <= 20) {
+//     console.log("Do you want to draw a new card? 🙂")
+// } else if (sum === 21) {
+//     console.log("Wohoo! You've got Blackjack! 🥳")
+//     hasBlackJack = true
+// } else {
+//     console.log("You're out of the game! 😭")
+//     isAlive = false
+// }
+
+// console.log(hasBlackJack)
+// console.log(isAlive)
+// 3. Log it out to check that you're doing it right
+
+//----------------Let's practice boolean conditions ---------------------------
+
+console.log(4 === 3)  //  false
+console.log(5 > 2)    //  true
+console.log(12 > 12)  // false
+console.log(3 < 0)    // false
+console.log(3 >= 3)   // true
+console.log(11 <= 11) // true
+console.log(3 <= 2)   // false
+
+
+//----------------Add the message variable ---------------------------
+
+let firstCard = 10
+let secondCard = 13
+let sum = firstCard + secondCard + 4
+let hasBlackJack = false
+let isAlive = true
+let message = "";
+// 1. Declare a variable called message and assign its value to an empty string
+
+// 2. Reassign the message variable to the string we're logging out
+if (sum <= 20) {
+    message = "Do you want to draw a new card? 🙂"
+} else if (sum === 21) {
+    message = "Wohoo! You've got Blackjack! 🥳"
+    hasBlackJack = true
+} else {
+    isAlive = false
+    message = "You're out of the game! 😭"
 }
+console.log(message)
 
-processOrder()
-processOrder()
+// 3. Log it out!
+
+
+//----------------Link to stylesheet ---------------------------

@@ -151,7 +151,7 @@
           |-- Notes App
 
     
-- Capstone: Flash Ecommerce Project (6)
+    - Capstone: Flash Ecommerce Project (6)
           |
           |-- Product Listing Page
           |-- Navbar
@@ -160,7 +160,7 @@
           |-- Price Component
           |-- Filters
 
-    - Polyfills (6)
+     - Polyfills (6)
           |
           |-- polyfills for Map
           |-- polyfills for Filter
@@ -170,7 +170,7 @@
           |-- polyfills for Bind
 
 
-    - Asynchronous JavaScript (10)
+     - Asynchronous JavaScript (10)
           |
           |-- Callbacks
           |-- How Async JS Works
@@ -183,13 +183,13 @@
           |-- Promise API - Promise.race() v/s Promise.any()
           |-- async/await
 
-    - Coding Drills - 2 (3)
+     - Coding Drills - 2 (3)
           |
           |-- Arrange Words In Ascending Order of Length
           |-- Reverse words of a string without changing their order
           |-- Count the frequency of elements in an Array
 
-    - Interview Problems - Machine Coding
+     - Interview Problems - Machine Coding
           |
           |-- Stop Watch Timer
           |-- Debouncing
@@ -199,13 +199,13 @@
           |-- Deep Copy
           |-- Drop Down
 
-    - Advanced Projects
+     - Advanced Projects
           |
           |-- Moive App
           |-- Recipe App
           |-- Quiz App
 
-    - Classes 
+     - Classes 
           |
           |-- Prototype
           |-- Bascis of Classes

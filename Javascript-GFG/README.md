@@ -151,13 +151,68 @@
           |-- Notes App
 
     
-    - Capstone: Flash Ecommerce Project
-    - Polyfills
-    - Asynchronous JavaScript
-    - Coding Drills - 2
+- Capstone: Flash Ecommerce Project (6)
+          |
+          |-- Product Listing Page
+          |-- Navbar
+          |-- Cart Page
+          |-- Horizental Card
+          |-- Price Component
+          |-- Filters
+
+    - Polyfills (6)
+          |
+          |-- polyfills for Map
+          |-- polyfills for Filter
+          |-- polyfills for Reduce
+          |-- polyfills for flatten
+          |-- polyfills for Call & Apply
+          |-- polyfills for Bind
+
+
+    - Asynchronous JavaScript (10)
+          |
+          |-- Callbacks
+          |-- How Async JS Works
+          |-- Callback Hell
+          |-- Promise
+          |-- Creating a Promise
+          |-- Method Chaining
+          |-- Promise API - Promise.all()
+          |-- Promise API - Promise.allSettled()
+          |-- Promise API - Promise.race() v/s Promise.any()
+          |-- async/await
+
+    - Coding Drills - 2 (3)
+          |
+          |-- Arrange Words In Ascending Order of Length
+          |-- Reverse words of a string without changing their order
+          |-- Count the frequency of elements in an Array
+
     - Interview Problems - Machine Coding
+          |
+          |-- Stop Watch Timer
+          |-- Debouncing
+          |-- Throttling
+          |-- Modal
+          |-- Carousel
+          |-- Deep Copy
+          |-- Drop Down
+
     - Advanced Projects
+          |
+          |-- Moive App
+          |-- Recipe App
+          |-- Quiz App
+
     - Classes 
+          |
+          |-- Prototype
+          |-- Bascis of Classes
+          |-- Classes Inheritance
+          |-- Static properties and methods - JS
+          |-- private properties
+          
     - Assignments
 
 

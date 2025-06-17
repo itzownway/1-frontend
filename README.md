@@ -1,6 +1,13 @@
 # frontend
 
- :- Expert At MERN --> July | Auguest | September | October | November | December (Before End Of 2025 - Below Projct Needs to Be Complete) 
+ :- Expert At MERN
+ 
+        -- July 
+        -- Auguest
+        -- September
+        -- October
+        -- November
+        -- December (Before End Of 2025 - Below Projct Needs to Be Complete) 
 
 
 

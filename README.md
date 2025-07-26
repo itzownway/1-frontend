@@ -2,7 +2,6 @@
 
  :- Expert At MERN
  
-        -- July 
         -- Auguest
         -- September
         -- October

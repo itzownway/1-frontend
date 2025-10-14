@@ -1,0 +1,97 @@
+Setup Debugger For JavaScript
+-----------------------------
+
+   - Two Way Of Debug 
+                  |
+                  |---------------- Web Application 
+                  |
+                  |---------------- Node Js CLI 
+
+
+Step - 1
+--------
+  - Search on Top Bar for Vs-Code (launch.json)
+
+  - Add below code to launch.json file for Web Application Debug 
+   
+            {
+                "version": "0.2.0",
+                "configurations": [
+                    {
+                    "name": "Attach to Chrome",
+                    "port": 9222,
+                    "request": "attach",
+                    "type": "chrome",
+                    "webRoot": "${workspaceFolder}"
+                    }
+                ]
+            }
+
+  - Add below code to launch.json file for Node Js CLI   Debug (need to be inside the configurations [] like above )
+
+              {
+                "name": "Debug CLI Quiz App (Node.js)",
+                "type": "node",
+                "request": "launch",
+                "program": "${workspaceFolder}/1-frontend/Javascript-GFG/projects/cli-quiz-app/script.js",
+                "console": "integratedTerminal"
+              }
+
+
+Step -2
+-------
+
+       - Top right Corner you can "Run" 
+
+       - Click on Run ---------> Start Debugging 
+
+       - You Can See at top-right corner (RUN AND DEBUG) options 
+                                                |
+                                                |----------- Select the Respective Environment (e.x - Debug CLI Quiz App (Node.js)- this we given at launch.json)
+
+
+       - Before Start Set the break-point (to the file )      
+
+       - Click On The Green Right Error Button to start the Debugging
+
+
+
+Step - 3
+----------
+  VARIABLES (Local , Globals , Module )
+      |---- When execution stops at a breakpoint, look at the VARIABLES panel on the left side of the Debug view. 
+            This panel automatically updates to show all variables accessible in the current scope.
+
+
+          - any variables you can pass from integratedTerminal once you start the debug it will ask for input 
+
+  WATCH
+     |
+     |----- add to watch and check the value 
+
+
+
+  CALLSTACK
+      |
+      |----- From hhich file and at what line of code sequence wise execute -- all tracks 
+
+
+
+
+  LOADED SCRIPTS
+         
+
+   
+
+Setup Debugger For React
+-------------------------
+
+        -  
+
+
+
+
+
+
+Setup Debugger For MERN
+-----------------------

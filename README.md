@@ -2,8 +2,6 @@
 
  :- Expert At MERN
  
-        -- Auguest
-        -- September
         -- October
         -- November
         -- December (Before End Of 2025 - Below Projct Needs to Be Complete) 

@@ -222,3 +222,201 @@
           |------- Build a Simple Image Editor Webpage
           |------- Custom Form Builder Webpage
           |------- 2048 Game
+
+
+
+
+
+JavaScript Notes
+------------------
+
+
+## Variables 
+
+     - store information or data
+     
+     - why variable
+     - what is variable
+     - various way to create variable
+
+
+
+        e.x -  var message = "Hello"; // declaration and assign the value 
+               var message = "Hye";
+
+             var text ; // declare 
+             text = 20; // assign 
+
+
+### var, let and const
+
+     var
+     -----  
+          var message = "hye";    //  declare and assign 
+          var message = "Hello"; // re-declare
+
+          var message;     // declare
+          message = "hye"; // assign
+
+     let
+     -----
+         let text = "By"; // declare
+         text = "cool"; // assign
+
+         let text = "code"; // declare and assign 
+         let text = "javascript"; // re-declare (not possible) 
+
+     const
+     -------
+          const age = 90;
+          age = 70; // not possible 
+          const age = 60; // not possible 
+
+
+    i)  var - declare, assign and re-declare  the variable 
+    ii) let - declare, assign but re-declare not possible  
+    iii) const - declare but assign and re-declare is not possible 
+          
+          
+### Scope
+
+      - Global  
+            |-- variables can be accessed from anywhere in a JavaScript program.
+            |-- variables declared Globally (outside any block or function) have Global Scope.
+
+      - Function 
+          |--- variables defined inside a function are not accessible (visible) from outside the function.
+          |--- variables declared within a JavaScript function, are LOCAL to the function:
+      
+      - Block
+          |-- variables declared with let and const inside a code block are "block-scoped," meaning they are only accessible within that block.
+
+
+### Variables Naming Convention
+
+    - declare using 
+                |---- alphabets
+                |---- underscore
+                |---- dollat sign
+                |---- can not declare with number
+
+                
+### Datatypes 
+
+        - primitive (single value assign to variable)
+             |
+             |---- String 
+             |---- Number
+             |---- Boolean 
+             |---- Undefind  ---- declared but value is not assign (e.g - let a;)
+             |---- null --------- (let value =null)
+             |---- NaN (E.g - let a ="heelo"; let b ="bye"; console.log(a*b)) 
+
+        - Non-primitive (multiple values assign to a variable)
+               |
+               |------ objects (E.g - const data = {} or [];
+                         |
+                         |--------- e.g - {name : "A", age=200, {}, []}
+                         
+### Concatenation and Template Literal
+
+          - ${}  
+             (E.g 
+                  - let name = "sanjay"; 
+                  - let message = 'name is ${name}';
+                  
+###  Operator In JavaScript
+
+         1)  Arithmetic Operators: Used to perform mathematical operations.
+
+         2) Assignment Operators: Used to assign values to variables.
+
+         3) Comparison Operators: Used to compare two values and return a boolean (true or false) result. 
+
+         4) Logical Operators: Used to combine or manipulate boolean values. 
+
+         5) Bitwise Operators: Operate on the binary representation of numbers.
+
+         6) String Operators: Primarily used for string concatenation.
+
+         7) Null Coalescing (E.g - let value ?? "default value";)
+
+### Type Conversion
+
+         const a = "Sanjay";
+         const b = "Kumar Das"; 
+
+         const c = Number(a);
+         const d = Number(b);
+
+
+## ReadlineSync (take input from user by terminal - npm i readline-sync)
+
+          const readlineSync = requre("readline-sync");
+          readlineSync.question("Enter the Value");
+          
+
+         
+## JavaScript Fundamentals 
+
+         Control Structure
+                   |
+                   |-------- Conditional (Ternary Operator - (E.g - condition ? yes : no ))
+                   |
+                   |-------- Repetational 
+                   |
+                   |-------- Jumping 
+                   |
+                   |-------- Switching 
+
+
+## Error Handling - try , catch and finally 
+
+        E.g - 
+              try {
+                     // some line of codes
+                     //
+               } catch(error) {
+                    console.log(e);
+               } finally {
+                 // 
+               }
+                 
+            
+## Functional Programming 
+
+
+
+
+                      
+    
+
+          
+          
+             
+             
+
+               
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+

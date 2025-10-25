@@ -231,7 +231,7 @@ JavaScript Notes
 ------------------
 
 
-## Variables 
+### Variables 
 
      - store information or data
      
@@ -248,7 +248,7 @@ JavaScript Notes
              text = 20; // assign 
 
 
-### var, let and const
+#### var, let and const
 
      var
      -----  
@@ -278,7 +278,7 @@ JavaScript Notes
     iii) const - declare but assign and re-declare is not possible 
           
           
-### Scope
+#### Scope
 
       - Global  
             |-- variables can be accessed from anywhere in a JavaScript program.
@@ -292,7 +292,7 @@ JavaScript Notes
           |-- variables declared with let and const inside a code block are "block-scoped," meaning they are only accessible within that block.
 
 
-### Variables Naming Convention
+#### Variables Naming Convention
 
     - declare using 
                 |---- alphabets
@@ -318,14 +318,14 @@ JavaScript Notes
                          |
                          |--------- e.g - {name : "A", age=200, {}, []}
                          
-### Concatenation and Template Literal
+#### Concatenation and Template Literal
 
           - ${}  
              (E.g 
                   - let name = "sanjay"; 
                   - let message = 'name is ${name}';
                   
-###  Operator In JavaScript
+####  Operator In JavaScript
 
          1)  Arithmetic Operators: Used to perform mathematical operations.
 
@@ -341,7 +341,7 @@ JavaScript Notes
 
          7) Null Coalescing (E.g - let value ?? "default value";)
 
-### Type Conversion
+#### Type Conversion
 
          const a = "Sanjay";
          const b = "Kumar Das"; 
@@ -350,14 +350,14 @@ JavaScript Notes
          const d = Number(b);
 
 
-## ReadlineSync (take input from user by terminal - npm i readline-sync)
+### ReadlineSync (take input from user by terminal - npm i readline-sync)
 
           const readlineSync = requre("readline-sync");
           readlineSync.question("Enter the Value");
           
 
          
-## JavaScript Fundamentals 
+### JavaScript Fundamentals 
 
          Control Structure
                    |
@@ -370,7 +370,7 @@ JavaScript Notes
                    |-------- Switching 
 
 
-## Error Handling - try , catch and finally 
+### Error Handling - try , catch and finally 
 
         E.g - 
               try {
@@ -383,7 +383,7 @@ JavaScript Notes
                }
                  
             
-## Functional Programming 
+### Functional Programming 
 
 
 

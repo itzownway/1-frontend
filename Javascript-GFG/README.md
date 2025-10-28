@@ -350,7 +350,7 @@ JavaScript Notes
          const d = Number(b);
 
 
-### ReadlineSync (take input from user by terminal - npm i readline-sync)
+#### ReadlineSync (take input from user by terminal - npm i readline-sync)
 
           const readlineSync = requre("readline-sync");
           readlineSync.question("Enter the Value");
@@ -370,7 +370,7 @@ JavaScript Notes
                    |-------- Switching 
 
 
-### Error Handling - try , catch and finally 
+#### Error Handling - try , catch and finally 
 
         E.g - 
               try {

@@ -385,6 +385,92 @@ JavaScript Notes
             
 ### Functional Programming 
 
+#### Function Declaration
+
+        - What is function 
+                       |------- a function is a block of reusable code designed to perform a specific task.
+
+
+        - Parameter and Argument
+                                           |-------------- parameter
+               E.x -     function message(name) {
+                             console.log("Sanjay Kumar Das");
+                             }                         |---------- argument 
+
+        -  normal function can be called before and after declaration of function                      
+
+
+#### Anonymous Function & Function Expression
+
+        - What is Anonymous Function
+                             |--------  a function that is not declared with a name
+
+
+         E.x = 
+                    function anonymousFunction() {
+                        console.log("anonymous function ");       // this is an anonymous function 
+                    }
+
+         - Anonymous Function Assign to a Variable 
+
+            E.x =
+              let anonymousFunction = function () {
+                console.log("anonymous function assign to variable");
+               }
+
+               
+         - Anonymous function can be only called after the declaration of function bcz as it is assign to variable 
+
+
+    Function Expression
+    -------------------
+        - Have a variable and assign function to it call as function expression 
+                    
+         E.x =                                |--------------------------- here function did not have name
+              let anonymousFunction = function () {
+                console.log("anonymous function assign to variable");
+               }
+
+    Name Function Expression
+    ------------------------
+          - Have a variable and assign a name function to it call as Name function expression 
+          
+             E.x =                                |-------------------- name of function 
+              let anonymousFunction = function nameFunction() {
+                console.log("anonymous function assign to variable");
+               }
+
+
+  note :- Anonymous Function only can be access and call be Variable name (not by function name)     
+                             
+
+#### Return and undefined 
+
+         - What Pure Function
+                        |---------- function always accept the parameter and return a value also did not change the data types even did not change the value 
+
+
+           E.x = 
+                  function calculateSum(x, y) {
+                     return x + y ;
+                  }  
+
+                  const result = calculateSum(10, 20);
+                  console.log(result);
+                  
+
+#### Arrow Function
+
+
+
+
+#### Map and Set Collection
+
+
+
+
+          
+
 
 
 

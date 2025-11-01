@@ -385,6 +385,18 @@ JavaScript Notes
             
 ### Functional Programming 
 
+    ###### Functions
+             |
+             |-------- Normal function
+             |
+             |-------- Pure Function
+             |
+             |-------- Anonymous Function (Function Expression and Name Function Expression)
+             |
+             |-------- Arrow Function
+             |
+
+
 #### Function Declaration
 
         - What is function 
@@ -446,17 +458,23 @@ JavaScript Notes
 
 #### Return and undefined 
 
+        - What is Return
+                 |---------- go out of the function (after return anything will not execute - funcation and class specific)
+        
+
          - What Pure Function
-                        |---------- function always accept the parameter and return a value also did not change the data types even did not change the value 
+                        |---------- it accept the parameter it do not change the parameter and always return a value 
 
 
-           E.x = 
+           E.x =                        |---------- no change the types and anything
                   function calculateSum(x, y) {
                      return x + y ;
                   }  
 
                   const result = calculateSum(10, 20);
                   console.log(result);
+
+                  
                   
 
 #### Arrow Function

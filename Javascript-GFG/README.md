@@ -420,14 +420,15 @@ JavaScript Notes
 
          E.x = 
                     function anonymousFunction() {
-                        console.log("anonymous function ");       // this is an anonymous function 
+                        console.log("anonymous function ");       // this is normal function 
                     }
 
          - Anonymous Function Assign to a Variable 
 
             E.x =
+                                         |--------------------------- here function did not have name
               let anonymousFunction = function () {
-                console.log("anonymous function assign to variable");
+                console.log("anonymous function assign to variable");      // this is an anonymous function
                }
 
                

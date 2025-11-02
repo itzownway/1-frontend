@@ -479,7 +479,49 @@ JavaScript Notes
 
 #### Arrow Function
 
+       - What is Arrow Function
+                    |------------ It is Shorted syntax for Function Expression(i.e - anonymous function)
 
+
+      E.x 
+            // Normal Function
+            
+                function sum(x , y) {
+                    if ( x > y) {
+                        return x + y;
+                    } else {
+                        return x - y; 
+                    }
+                }     
+                    
+            // Anonymous Function (Function Expression - assign to variable & no function name )
+
+                  const sum = function (x , y) {
+                    if ( x > y) {
+                        return x + y;
+                    } else {
+                        return x - y; 
+                    }
+                  }   
+                  
+            // Arrow Function (shorter version of anonymous function)
+            
+                            |------------------------- here there no use of function keyword or any name (instead it uses =>)  
+                const sum = (x , y) => {
+                    if ( x > y) {
+                        return x + y;
+                    } else {
+                        return x - y; 
+                    }
+                  }
+
+               (Or) 
+
+                  const sum = (x, y) => x > y ? x + y : x - y ;
+
+            
+                    
+        
 
 
 #### Map and Set Collection
